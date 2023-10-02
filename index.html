@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!-- Ir na página do projeto e clicar em "icons". Procurar por "cart" -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="index.css">
+  <title>CVC SC Turismo</title>
+</head>
+
+<body>
+  <header class="container-fluid p-2 bg-warning text-center fixed-top">
+    <div class="logo">CVC SC Turismo</div>
+    <nav class="navbar navbar-expand-sm bg-warning">
+      <div class="container-fluid justify-content-end">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="mynavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Serviços</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown"
+                aria-expanded="false">Pacotes</a>
+              <ul class="dropdown-menu bg-warning" aria-labelledby="dropdown03">
+                <li><a class="dropdown-item" href="#">Nacionais</a></li>
+                <li><a class="dropdown-item" href="#">Internacionais</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Taxas</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contato</a></li>
+            <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-cart3"></i></a></li>
+            <li class="nav-item"><a class="nav-link" href="#"><i class="bi bi-person-circle"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class=" bg-dark">
+    <section class="sessao1">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/carousel/maragogi.jpg" alt="Brasil dos seus sonhos">
+            <h1 class="titulo-sessao1">
+              Venha Realizar
+              <br>
+              O Brasil dos seus sonhos!
+            </h1>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/carousel/Chapada.jpg" class="d-block w-100" alt="Imagem da Pedra da Galinha choca">
+            <div class="carousel-caption d-none d-md-block"
+              style="color: white; font-weight: bold; font-size: xx-large;">
+              ENTRE MONTANHAS
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/carousel/angra.jpg" class="d-block w-100" alt="Imagem de Angra dos Reis">
+            <div class="carousel-caption d-none d-md-block"
+              style="color: black; font-weight: bold; font-size: xx-large;">
+              E MARES
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/carousel/cataratas-iguacu.jpg" class="d-block w-100" alt="Imagem das Cataratas do Rio Iguaçu">
+            <div class="carousel-caption d-none d-md-block" style="font-weight: bold; font-size: xx-large;">
+              DE NORTE A SUL
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/carousel/chapada-veadeiros.jpg" class="d-block w-100" alt="Imagem Chapada dos Veadeiros">
+            <div class="carousel-caption d-none d-md-block"
+              style="color: white; font-weight: bold; font-size: xx-large;">
+              DE LESTE A OESTE
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/carousel/Brazil-Banner.png" class="d-block w-100" alt="Imagem Praia Nordestina Maragogi">
+            <div class="carousel-caption d-none d-md-block" style="font-weight: bold; font-size: xx-large;">
+              BRASIL PROFUNDO
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/carousel/jeri.jpg" class="d-block w-100" alt="Imagem Praia Nordestina de Jeri">
+            <div class="carousel-caption d-none d-md-block"
+              style="color: black; font-weight: bold; font-size: xx-large;">
+              Venha conhecer o Brasil!
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+
+    <!-- Buscar exemplo no site do Bootstrap -->
+    <section class="container-fluid bg-dark text-center p-5" style="color: azure; margin-top: 2rem;">
+      <h1>Como funcionam</h1>
+      <h2>Nossos Pacotes</h2>
+      <p>Oferecemos uma ampla variedade de pacotes de viagens projetados para proporcionar o máximo de conforto e
+        diversão enquanto você explora as belezas do Brasil. Nossos pacotes são cuidadosamente elaborados para atender
+        às suas necessidades, seja para relaxar em praias paradisíacas, explorar cidades vibrantes ou se aventurar na
+        natureza deslumbrante.
+        Queremos que você desfrute de sua viagem ao máximo, sem se preocupar com estresse, ansiedade ou quaisquer
+        outras preocupações. Nossa equipe está aqui para tornar sua experiência de viagem emocionante e memorável,
+        cuidando de todos os detalhes para que você possa simplesmente relaxar e aproveitar cada momento.
+      </p>
+      <div class="row">
+
+        <div class="col-md-4">
+          <div class="card bg-warning">
+            <img src="img/nossos-pacotes/gramado.jpeg   " class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Gramado</h5>
+              <h1 class="card-subtitle mb-2 text-muted">R$5.000,00</h1>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <p class="text-muted">Em até 24x</p>
+              <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservar</a>
+            </div>
+            <!--
+                          Os atributos data* são utilizados para atribuir novas propriedades a elementos HTML5
+                          Neste caso, o data-toggle (data-bs-toggle em boostrap para evitar conflitos) diz que este botão irá acinar uma modal
+                          Já o data-target (data-bs-target no bootstrap) diz qual modal ele vai acionar -->
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card bg-warning">
+            <img src="img/nossos-pacotes/porto-seguro.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Porto Seguro</h5>
+              <h1 class="card-subtitle mb-2 text-muted">R$4.000,00</h1>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <p class="text-muted">Em até 24x</p>
+              <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card bg-warning">
+            <img src="img/nossos-pacotes/rio-de-janeiro.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Rio de Janeiro</h5>
+              <h1 class="card-subtitle mb-2 text-muted">R$2.000,00</h1>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <p class="text-muted">Em até 24x</p>
+              <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4" style="margin-top: 2rem;">
+          <div class="card bg-warning">
+            <img src="./img/nossos-pacotes/fortaleza.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Fortaleza</h5>
+              <h1 class="card-subtitle mb-2 text-muted">R$1.700,00</h1>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <p class="text-muted">Em até 24x</p>
+              <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4" style="margin-top: 2rem;">
+          <div class="card bg-warning">
+            <img src="./img/nossos-pacotes/jericoacoara.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Jericoacoara</h5>
+              <h1 class="card-subtitle mb-2 text-muted">R$6.700,00</h1>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <p class="text-muted">Em até 24x</p>
+              <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4" style="margin-top: 2rem;">
+          <div class="card bg-warning">
+            <img src="./img/nossos-pacotes/sao-paulo.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">São Paulo</h5>
+              <h1 class="card-subtitle mb-2 text-muted">R$3.700,00</h1>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <p class="text-muted">Em até 24x</p>
+              <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sessao4">
+      <div class="imagem-de-fundo-sec text-center">
+        <img src="./img/carousel/angra.jpg" style="justify-items: center;">
+        <h2>Conheça viagens de nossos clientes</h2>
+        <p>Veja a felicidade real de quem viajou com a gente</p>
+        <button class="btn-comecar">Vamos começar</button>
+      </div>
+    </section>
+
+    <section class="sessao5">
+      <div class="imagem-de-fundo-sec">
+        <h2 class="missao">Nossa missão</h2>
+        <p class="paragrafo-sessao5">As viagens do seu sonho que cabem no seu bolso</p>
+        <p class="paragrafo-sessao5">
+          Viaje com conforto e segurança sem se preocupar com nada, apenas se divertir com sua
+          família.
+          <br>O Voo é incluído, hotel escolhido, passeios personalizados no seu horário e preferência.
+        </p>
+        <figure>
+          <img src="./img/carousel/cataratas-iguacu.jpg">
+          <figcaption>Cataratas do Iguaçu</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="container-fluid bg-warning p-5">
+      <h2 class="text-center">Faça já seu orçamento</h2>
+      <form method="GET" action="">
+        <fieldset>
+          <legend>Dados pessoais</legend>
+          <div class="mb-3">
+            <label class="form-label" for="nome">Nome:</label>
+            <input type="text" class="form-control" name="nome" id="nome">
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="email">
+              Email:</label>
+            <input type="email" class="form-control" name="email" placeholder="email@xyz.com" id="email" required>
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="dataIda">Data de ida:</label>
+            <input type="date" class="form-control" name="dataIda" id="dataIda">
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="dataVolta">Data de volta:</label>
+            <input type="date" class="form-control" name="dataVolta" id="dataVolta">
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="comentario">Comentário:</label>
+            <textarea name="commentario" id="comentario" class="form-control" rows="5"></textarea>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Qual(ais) serviços(s) você deseja contratar?</legend>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" name="compraPassagens" id="compraPassagens"
+              value="compraPassagens">
+            <label class="form-check-label" for="compraPassagens">Compra de passagens</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" name="reservaHospedagem" id="reservaHospedagem"
+              value="reservaHospedagem">
+            <label class="form-check-label" for="reservaHospedagem">Reserva de hospedagem</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" name="reservaHospedagem" id="aluguelVeiculos"
+              value="aluguelVeiculos">
+            <label class="form-check-label" for="reservaHospedagem">Aluguel de veículos</label>
+          </div>
+        </fieldset>
+        <br>
+        <button class="btn btn-secondary">Salvar</button>
+        <br>
+        <br>
+      </form>
+    </section>
+  </main>
+
+  <footer class="container-fluid bg-black text-center">
+    Desenvolvido por Icaro Santos
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+
+</body>
+
+
+<!-- Buscar exemplo no site do bootstrap -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Suas compras</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Produto adicionado no carrinho!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Continuar compando</button>
+        <a href="checkout.html" class="btn btn-success">Finalizar compra</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+</html>

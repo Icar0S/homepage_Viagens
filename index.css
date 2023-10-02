@@ -1,0 +1,181 @@
+/* Reset CSS para remover margens e preenchimento padrão */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos para o header */
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.icones img {
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+}
+
+/* Estilos para as sessões */
+.sessao1 {
+  text-align: center;
+  padding: 0;
+  color: #fff;
+}
+
+.imagem-de-fundo {
+  position: relative;
+  background-image: url('./img/carousel/Brazil-Banner.png'); /* Substitua 'sua-imagem.jpg' pelo caminho correto */
+  background-size: cover;
+  background-position: center;
+}
+
+.imagem-de-fundo img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.imagem-de-fundo-sec img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.titulo-sessao1 {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-bottom: 20px;
+  font-size: 80px;
+  color: #fff;
+}
+
+
+.titulo-sessao2 {
+  color: #333;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.paragrafo-sessao2 {
+      font-family: 'Georgia', serif;
+      font-size: 18px;
+      line-height: 28px;
+      text-align: left;
+      margin-top: 10px;
+}
+
+.sessao3 {
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+  padding: 50px 0;
+}
+
+.sessao3 .oferta-viagem {
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.sessao4 {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.sessao4 p {
+      font-size: 18px;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+.sessao4 button {
+  background-color: #f2f2f2;
+  color: #333;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.sessao4 button:hover {
+  background-color: #555;
+  color: #fff;
+}
+
+.sessao5 {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.paragrafo-sessao5 {
+      font-family: 'Georgia', serif;
+      font-size: 18px;
+      line-height: 28px;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+/* Estilos para o footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+footer ul {
+  list-style-type: none;
+  display: flex;
+}
+
+footer ul li {
+  margin-right: 20px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
